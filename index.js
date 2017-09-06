@@ -76,7 +76,7 @@ const update = (table,updates,where) => {
   overrideTable(table,tableData)
 }
 
-export const table = table => {
+module.exports = table => {
   ensureFile()
 
   return {
