@@ -3,7 +3,7 @@
 Basic useful feature list:
 
 ```javascript
-const local = require('local-storage')
+const local = require('json-local-storage')
 const users = local.table('users')
 
 users.create({name:'Simon'})
